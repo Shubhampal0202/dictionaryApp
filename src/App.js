@@ -1,11 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import Dictionary from './Components/Dictionary';
+import Dictionary from './components/Dictionary';
 
 function App() {
   return (
    <Dictionary />
-   
   );
 }
 
