@@ -1,0 +1,35 @@
+hr{
+    width: 85%;
+    margin: auto;
+}
+h4{
+    color: white;
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h4>span{
+    text-decoration: underline;
+}
+
+.social-links{
+    height: 10vh;
+    width: 500px;
+    margin: auto;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.icon{
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+   .social-links{
+     width: 80%;
+   }
+}
